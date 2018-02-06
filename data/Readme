@@ -1,0 +1,3 @@
+this directory includes some subderectories for model, each subdirctory include images of faces you wanted train 
+and the name of subdirctory is the person name you wanted train.
+Also, you need modify somen codes according the name of directory.
