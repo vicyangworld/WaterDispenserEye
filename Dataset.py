@@ -91,7 +91,7 @@ class Dataset:
 			right = dw - left
 		#cv2中的补边方法，cv2.BORDER_CONSTANT意思是以常量value填充,这里的value表示黑色
 		constant = cv2.copyMakeBorder(image, top, bottom, left, right, cv2.BORDER_CONSTANT, value=[0,0,0])
-		#重新设置图片大小
+		#重新设置图片大小 
 		return cv2.resize(constant, (height,width))
 
 	def __read_images(self,path_name):
