@@ -11,7 +11,6 @@ from Dataset import Dataset
 from Dataset import IMAGE_SIZE
 import cv2 
 
-
 MODEL_PATH='./yangwk.face.model.h5'
 class Model(object):
 	"""docstring for Model"""
